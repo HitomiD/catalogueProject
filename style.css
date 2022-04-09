@@ -1,0 +1,149 @@
+html, body{
+    margin: 0px;
+    min-height: 100vh;
+}
+
+body{
+    padding: 0px 220px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 195, 205);
+    width: 100%;
+    min-width: 850px;
+    padding: 20px 0px;
+}
+
+.logo{
+    width: 160px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-family: roboto;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 195, 205);
+}
+
+.link:hover{
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 60px 0px;
+}
+
+.hero-content{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    min-width:300px;
+    gap: 15px;
+}
+
+.hero-title{
+    font-size: 50px;
+    height: auto;
+    width: 20%;
+    color: rgb(255, 195, 205);
+}
+
+.hero-text{
+    font-size: 20px;
+}
+
+.a-catalogo{
+    padding: 10px 0;
+    width: 50%;
+    flex: 0 0 auto;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px;
+    background-color: transparent;
+    text-align: center;
+}
+.a-catalogo:hover{
+    background-color: rgb(255, 195, 205);
+    color: black;
+    border-color: rgb(255, 195, 205);
+    transition: 0.2s;
+}
+
+.main-image{
+    flex: 0 1 800px;
+    min-width: 500px;
+}
+
+.main-image .image {
+    width:100%;
+}
+
+.information{
+    display: flex;
+    min-width: 850px;
+    margin: 0px;
+    flex: 0 1 100%;
+    justify-content: space-around;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-header{
+    font-size: 30px;
+    margin: 0px;
+    color:rgb(161, 105, 105)
+}
+
+.info-text{
+    font-size: 18px;
+    margin: 0px;
+    color:rgb(134, 134, 134);
+    text-align: center;
+
+}
+
+.bottom-part{
+    min-width: 850px;
+}
+
+.footer{
+    color:gray;
+    padding: 10px 0px;
+    font-size: 15px;
+    width: max-content;
+}
