@@ -5,7 +5,7 @@ html, body{
 
 body{
     padding: 0px 20vh;
-    background-color: black;
+    background-color: rgb(245, 245, 225);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -32,21 +32,41 @@ body{
     width: 100%;
 }
 
+
 .links{
     display: flex;
     list-style: none;
+    align-items: center;
     gap: 10px;
     font-family: roboto;
 }
 
 .link{
     text-decoration: none;
-    color: rgb(255, 195, 205);
+    color: black;
 }
 
 .link:hover{
     text-decoration: underline;
     transition: 0.2s;
+}
+
+.darkmode-btn{
+    background-color: transparent;
+    border-style: none;
+    border-radius: 8px;
+    height: 100%;
+    width: auto;
+}
+ .darkmode-btn:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+ }
+
+
+#darkbtn-icon{
+    font-size: 25px;
 }
 
 .main-content{
@@ -58,7 +78,6 @@ body{
 }
 
 .hero-content{
-    color:white;
     display: flex;
     flex-direction: column;
     max-width: 700px;
@@ -70,32 +89,33 @@ body{
     font-size: 50px;
     height: auto;
     width: 20%;
-    color: rgb(255, 195, 205);
+    color: rgb(255, 118, 141);
 }
 
 .hero-text{
     font-size: 20px;
+    color:black;
 }
 
 .a-catalogo{
     padding: 10px 0;
     width: 50%;
     flex: 0 0 auto;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 8px;
     text-decoration: none;
     font-family: roboto;
     font-size: 18px;
-    color: white;
+    color: black;
     font-weight: bold;
     margin: 10px 0px;
     background-color: transparent;
     text-align: center;
 }
 .a-catalogo:hover{
-    background-color: rgb(255, 195, 205);
-    color: black;
-    border-color: rgb(255, 195, 205);
+    background-color: rgb(255, 118, 141);
+    color: white;
+    border-color: rgb(255, 118, 141);
     transition: 0.2s;
 }
 
@@ -147,4 +167,56 @@ body{
     padding: 10px 0px;
     font-size: 15px;
     width: max-content;
+}
+
+/* dark mode settings */
+
+
+body.darkmode{
+    background-color: black;
+}
+
+.darkmode .darkmode-btn{
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    height: 100%;
+    width: auto;
+}
+ .darkmode .darkmode-btn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+ }
+
+.darkmode .top-bar{
+    color: rgb(255, 195, 205);
+}
+
+.darkmode .link{
+    color: rgb(255, 195, 205);
+}
+
+.darkmode .hero-content{
+    color:white;
+}
+
+.darkmode .hero-title{
+    color: rgb(255, 195, 205);
+
+}
+
+.darkmode .hero-text{
+    color: white;
+}
+
+.darkmode .a-catalogo{
+    border-color: white;
+    color: white;
+}
+.darkmode .a-catalogo:hover{
+    background-color: rgb(255, 195, 205);
+    color: black;
+    border-color: rgb(255, 195, 205);
 }
