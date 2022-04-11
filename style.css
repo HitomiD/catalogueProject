@@ -145,13 +145,13 @@ body{
 }
 
 .info-header{
-    font-size: 2vw;
+    font-size: 30px;
     margin: 0px;
     color:rgb(255, 118, 141);
 }
 
 .info-text{
-    font-size: 1.2vw;
+    font-size: 18px;
     margin: 0px;
     color:rgb(134, 134, 134);
     text-align: center;
