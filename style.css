@@ -38,7 +38,7 @@ body{
     list-style: none;
     align-items: center;
     gap: 10px;
-    font-family: roboto;
+    font-family: roboto, "URW Gothic","Verdana", "DejaVu Sans";
 }
 
 .link{
@@ -105,7 +105,7 @@ body{
     border: 2px solid black;
     border-radius: 8px;
     text-decoration: none;
-    font-family: roboto;
+    font-family: roboto, "URW Gothic", "Verdana","DejaVu Sans";
     font-size: 18px;
     color: black;
     font-weight: bold;
@@ -147,6 +147,7 @@ body{
 }
 
 .info-header{
+    font-family: roboto, "URW Gothic","Verdana", "DejaVu Sans";
     font-size: 30px;
     margin: 0px;
     /*color:rgb(75, 57, 37);*/
